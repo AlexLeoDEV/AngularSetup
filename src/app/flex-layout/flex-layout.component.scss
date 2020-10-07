@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #ffb9a4;
+  position: sticky;
+  height: 60px;
+  top: 0;
+}
+
+.content {
+  background: #c4ffe2;
+}
+
+.footer {
+  background: #e1b6ff;
+  position: sticky;
+  bottom: 0;
+  height: 150px;
+}

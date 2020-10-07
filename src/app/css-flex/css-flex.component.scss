@@ -1,0 +1,109 @@
+
+.page-title {
+  color: #6ee866;
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 700px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+img {
+  width: 33%;
+  flex-grow: 1;
+  object-fit: cover;
+}
+
+.item {
+  height: 200px;
+  width: 33%;
+  flex-grow: 1;
+}
+
+.item-1, .img-1 {
+  background-color: mediumpurple;
+  width: 66.3%;
+}
+
+.item-2 {
+  background-color: coral;
+}
+
+.item-3 {
+  background-color: greenyellow;
+}
+
+.item-4 {
+  background-color: aqua;
+}
+
+.item-5 {
+  background-color: blue;
+}
+
+.item-6 {
+  background-color: blueviolet;
+}
+
+.item-7 {
+  background-color: cadetblue;
+  width: 66.3%;
+}
+
+.item-8 {
+  background-color: bisque;
+}
+
+.item-9 {
+  background-color: brown;
+}
+
+.item-10 {
+  background-color: cornflowerblue;
+}
+
+.item-11, .img-11 {
+  background-color: darkmagenta;
+  width: 66.3%;
+}
+
+.item-12 {
+  background-color: darkgreen;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  padding-top: 10px;
+  font-size: 1.5rem;
+}

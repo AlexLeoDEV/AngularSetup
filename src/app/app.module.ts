@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CssGridComponent } from './css-grid/css-grid.component';
+import { CssFlexComponent } from './css-flex/css-flex.component';
+import { CssLoadersComponent } from './css-loaders/css-loaders.component';
+import { FlexLayoutComponent } from './flex-layout/flex-layout.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CssGridComponent,
+    CssFlexComponent,
+    CssLoadersComponent,
+    FlexLayoutComponent
   ],
   imports: [
     BrowserModule,
