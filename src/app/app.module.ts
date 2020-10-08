@@ -7,6 +7,7 @@ import { CssGridComponent } from './css-grid/css-grid.component';
 import { CssFlexComponent } from './css-flex/css-flex.component';
 import { CssLoadersComponent } from './css-loaders/css-loaders.component';
 import { FlexLayoutComponent } from './flex-layout/flex-layout.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FlexLayoutComponent } from './flex-layout/flex-layout.component';
     CssGridComponent,
     CssFlexComponent,
     CssLoadersComponent,
-    FlexLayoutComponent
+    FlexLayoutComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

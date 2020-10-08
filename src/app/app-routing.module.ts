@@ -4,12 +4,15 @@ import {FlexLayoutComponent} from './flex-layout/flex-layout.component';
 import {CssGridComponent} from './css-grid/css-grid.component';
 import {CssLoadersComponent} from './css-loaders/css-loaders.component';
 import {CssFlexComponent} from './css-flex/css-flex.component';
+import {ErrorComponent} from './error/error.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/css-flex', pathMatch: 'full' },
   { path: 'flex-layout', component: FlexLayoutComponent },
   { path: 'css-grid', component: CssGridComponent },
   { path: 'css-loaders', component: CssLoadersComponent },
-  { path: 'css-flex', component: CssFlexComponent }
+  { path: 'css-flex', component: CssFlexComponent },
+  { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({
