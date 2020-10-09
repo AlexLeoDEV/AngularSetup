@@ -136,26 +136,22 @@ article {
   animation-direction: alternate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
 
-.circle-1 {
-  animation-name: circle-1;
-}
-
-.circle-2 {
-  animation-name: circle-2;
-}
-
-.circle-3 {
-  animation-name: circle-3;
-}
-
-.circle-4 {
-  animation-name: circle-4;
-}
-
-.circle-5 {
-  animation-name: circle-5;
+  &-1 {
+    animation-name: circle-1;
+  }
+  &-2 {
+    animation-name: circle-2;
+  }
+  &-3 {
+    animation-name: circle-3;
+  }
+  &-4 {
+    animation-name: circle-4;
+  }
+  &-5 {
+    animation-name: circle-5;
+  }
 }
 
 // Box Loader
@@ -178,17 +174,16 @@ article {
 .box {
   width: 25px;
   height: 25px;
-}
 
-.box-1 {
-  position: relative;
-  animation: box-1 2s infinite;
-}
-
-.box-2 {
-  position: relative;
-  animation-direction: alternate;
-  animation: box-2 2s infinite;
+  &-1 {
+    position: relative;
+    animation: box-1 2s infinite;
+  }
+  &-2 {
+    position: relative;
+    animation-direction: alternate;
+    animation: box-2 2s infinite;
+  }
 }
 
 // Circle loader

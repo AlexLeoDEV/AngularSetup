@@ -1,10 +1,9 @@
-
 .page-title {
+  color: #1abc9c;
   text-align: center;
-  font-size: 25px;
+  font-size: 3rem;
   font-weight: bold;
   padding: 20px;
-  color: #1abc9c;
 }
 
 // Colored Grid
@@ -54,60 +53,6 @@
 }
 
 // Photo Gallery
-.img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.img-1 {
-  grid-area: breakfast;
-}
-
-.img-2 {
-  grid-area: burgers;
-}
-
-.img-3 {
-  grid-area: camera;
-}
-
-.img-4 {
-  grid-area: morning;
-}
-
-.img-5 {
-  grid-area: hats;
-}
-
-.img-6 {
-  grid-area: honey;
-}
-
-.img-7 {
-  grid-area: vegetables;
-}
-
-.img-8 {
-  grid-area: plant;
-}
-
-.img-9 {
-  grid-area: mushroom;
-}
-
-.img-10 {
-  grid-area: olive;
-}
-
-.img-11 {
-  grid-area: star;
-}
-
-.img-12 {
-  grid-area: bike;
-}
-
 .img-wrapper {
   width: 50%;
   margin-left: 25%;
@@ -121,6 +66,49 @@
     "honey vegetables vegetables"
     "plant mushroom olive"
     "star star bike";
+
+  &-1 {
+    grid-area: breakfast;
+  }
+  &-2 {
+    grid-area: burgers;
+  }
+  &-3 {
+    grid-area: camera;
+  }
+  &-4 {
+    grid-area: morning;
+  }
+  &-5 {
+    grid-area: hats;
+  }
+  &-6 {
+    grid-area: honey;
+  }
+  &-7 {
+    grid-area: vegetables;
+  }
+  &-8 {
+    grid-area: plant;
+  }
+  &-9 {
+    grid-area: mushroom;
+  }
+  &-10 {
+    grid-area: olive;
+  }
+  &-11 {
+    grid-area: star;
+  }
+  &-12 {
+    grid-area: bike;
+  }
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 // Card

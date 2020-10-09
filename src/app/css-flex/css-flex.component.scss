@@ -1,8 +1,8 @@
-
 .page-title {
-  color: #6ee866;
+  color: #1abc9c;
   text-align: center;
   font-size: 3rem;
+  font-weight: bold;
   padding: 20px;
 }
 
@@ -15,7 +15,7 @@
   margin: auto;
 }
 
-img {
+.img {
   width: 33%;
   flex-grow: 1;
   object-fit: cover;
@@ -25,6 +25,33 @@ img {
   height: 200px;
   width: 33%;
   flex-grow: 1;
+  &-2{
+    background-color: coral;
+  }
+  &-3{
+    background-color: greenyellow;
+  }
+  &-4{
+    background-color: aqua;
+  }
+  &-5{
+    background-color: blue;
+  }
+  &-6{
+    background-color: blueviolet;
+  }
+  &-8{
+    background-color: bisque;
+  }
+  &-9{
+    background-color: brown;
+  }
+  &-10{
+    background-color: cornflowerblue;
+  }
+  &-12{
+    background-color: darkgreen;
+  }
 }
 
 .item-1, .img-1 {
@@ -32,50 +59,14 @@ img {
   width: 66.3%;
 }
 
-.item-2 {
-  background-color: coral;
-}
-
-.item-3 {
-  background-color: greenyellow;
-}
-
-.item-4 {
-  background-color: aqua;
-}
-
-.item-5 {
-  background-color: blue;
-}
-
-.item-6 {
-  background-color: blueviolet;
-}
-
 .item-7 {
   background-color: cadetblue;
   width: 66.3%;
 }
 
-.item-8 {
-  background-color: bisque;
-}
-
-.item-9 {
-  background-color: brown;
-}
-
-.item-10 {
-  background-color: cornflowerblue;
-}
-
 .item-11, .img-11 {
   background-color: darkmagenta;
   width: 66.3%;
-}
-
-.item-12 {
-  background-color: darkgreen;
 }
 
 .card-container {
